@@ -42,26 +42,14 @@
 
             display-name = "Raise";
             bindings = <
-&trans          &kp F1   &kp F2   &kp F3        &kp F4  &kp F5                              &kp F6         &kp F7    &kp F8    &kp F9     &kp F10  &bt BT_CLR_ALL
-&trans          &kp F11  &kp F12  &trans        &trans  &trans                              &trans         &trans    &trans    &trans     &trans   &trans
-&kp LEFT_SHIFT  &trans   &trans   &trans        &trans  &trans                              &trans         &trans    &kp UP    &trans     &trans   &trans
-&kp LCTRL       &trans   &trans   &trans        &trans  &trans      &trans       &trans     &trans         &kp LEFT  &kp DOWN  &kp RIGHT  &trans   &trans
-                                  &kp LEFT_ALT  &trans  &kp DELETE  &kp SPACE    &kp ENTER  &kp BACKSPACE  &trans    &trans
+&trans          &kp F1   &kp F2   &kp F3        &kp F4           &kp F5                              &kp F6         &kp F7    &kp F8    &kp F9     &kp F10  &bt BT_CLR_ALL
+&trans          &kp F11  &kp F12  &trans        &trans           &trans                              &trans         &trans    &trans    &trans     &trans   &trans
+&kp LEFT_SHIFT  &trans   &trans   &trans        &trans           &trans                              &trans         &trans    &kp UP    &trans     &trans   &trans
+&kp LCTRL       &trans   &trans   &trans        &trans           &trans      &trans       &trans     &trans         &kp LEFT  &kp DOWN  &kp RIGHT  &trans   &trans
+                                  &kp LEFT_ALT  &kp PRINTSCREEN  &kp DELETE  &kp SPACE    &kp ENTER  &kp BACKSPACE  &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
-        };
-
-        extra_1 {
-            status = "reserved";
-        };
-
-        extra_2 {
-            status = "reserved";
-        };
-
-        extra_3 {
-            status = "reserved";
         };
     };
 };
